@@ -1,11 +1,13 @@
 <template>
-  <custom-header />
+  <div class="flex flex-col min-h-screen">
+    <custom-header />
 
-  <div class="m-4">
-    <RouterView />
+    <div class="flex-grow m-4">
+      <RouterView />
+    </div>
+
+    <custom-footer />
   </div>
-
-  <custom-footer />
 </template>
 
 <script lang="ts" setup>
