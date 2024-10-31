@@ -1,7 +1,9 @@
 <template>
   <custom-header />
 
-  <RouterView />
+  <div class="m-4">
+    <RouterView />
+  </div>
 
   <custom-footer />
 </template>
