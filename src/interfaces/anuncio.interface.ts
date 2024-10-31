@@ -1,7 +1,7 @@
 export interface Anuncio {
   id: string;
   title: string;
-  subtitile?: string;
+  subtitle?: string;
   description?: string;
   image: string;
 }
