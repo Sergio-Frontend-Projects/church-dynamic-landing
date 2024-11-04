@@ -6,7 +6,7 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      redirect: 'home',
+      redirect: { name: 'home' },
       component: LandingLayout,
       children: [
         { path: 'home', name: 'home', component: () => import('@/views/HomePage.vue') },
